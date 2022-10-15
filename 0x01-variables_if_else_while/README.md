@@ -44,11 +44,36 @@ The if, else, and if else statements in C programming are used to control the fl
 
 The general form of the if statement is;
 ```
-if (expression)
+if (expression)                                       
 { 
-    statement1;
-    statement2;                                                                                                                                                    } }                                                                                                              
+    firststatement;
+    secondstatement;                                                                                                                                                  }                                                                                                               
+
 ```
+From the above, expression is the conditional criterion. If expression evaluates to a nonzero value(`True`), the statements inside the braces ({ and }), such as `firtstatement and `secondstatement`, are executed. If expression evaluates to a value of zero (`false`), the statements are skipped or ignored.
+The braces ({ and }) form a block of statements that is under the control of the if statement. If there is only one statement inside the block, the braces can be omitted. The parentheses (( and )), however, must be always used to enclose the conditional expression.
+
+You will often want the computer to execute an alternate set of statements when the conditional expression of the if statement evaluates to a value of zero (false). To do so, you can use another conditional statement in C—the if-else statement. The if-else statement has the following form:
+
+```
+if (expression) 
+{  
+  firststatement;
+  secondstatement;
+.
+}
+else 
+{
+  first_statement;
+  second_statement;
+.
+}
+
+```
+
+If the first conditional expression evaluates to a value of zero which means logically false, the statements following `else` will be executed instead.
+
+
 
 
 
