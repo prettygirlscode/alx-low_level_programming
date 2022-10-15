@@ -1,5 +1,5 @@
 
-<h1>C - variables, if, else and while</h1>
+<h1>EXPLAINATION OF CONCEPTS USED IN WRITING MY PROGRAMS</h1>
 
 Working on this project helped me understand the application and usage of arithmetic operators, logical operators, relational operators and variable declarations.
 I learned how to use the if and if...else statements, i also learned how to declare and print values of variable type `char`, `int` and `unsigned int`. 
@@ -45,12 +45,14 @@ The if, else, and if else statements in C programming are used to control the fl
 
 The general form of the if statement is;
 ```
-> if (expression)                                       
-> { 
->   firststatement;
->   secondstatement;                                                                                                                                                  > }                                                                                                               
+  
+ if (expression)                                       
+  { 
+   firststatement;
+   secondstatement;
+  }
+  ```
 
-```
 From the above, expression is the conditional criterion. If expression evaluates to a nonzero value(`True`), the statements inside the braces ({ and }), such as `firtstatement and `secondstatement`, are executed. If expression evaluates to a value of zero (`false`), the statements are skipped or ignored.
 The braces ({ and }) form a block of statements that is under the control of the if statement. If there is only one statement inside the block, the braces can be omitted. The parentheses (( and )), however, must be always used to enclose the conditional expression.
 
@@ -74,7 +76,15 @@ else
 
 If the first conditional expression evaluates to a value of zero which means logically false, the statements following `else` will be executed instead.
 
-
-
+  
+<h3>The while loop</h3>
+ 
+The while keyword repeatedly executes a statement while a given condition is true. When the condition of the while loop is no longer logically true or evalutes to zero, the loop terminates and program execution resumes at the statement following the loop. The general form of the while statement is
+```
+while (expression) 
+statement;
+```
+Here like if the if and if-else statements, expression is the condition of the while statement. This expression is evaluated first. If the expression evaluates to a nonzero value, then statement is executed. After that, expression is evaluated again until it evaluates to a zero value (logically false).
+if the expression still evaluates to a nonzero value.
 
 
