@@ -30,12 +30,12 @@ The logical OR operator (||) yields a value of 1 whenever one or both of the ope
 
 The relational operators in C are;
 
-  > Equal to operator: ==
-  > Not equal to operator: !=
-  > Greater than: >
-  > Less than: <
-  > Greater than or equal to: >=
-  > Less than or equal to: <=
+  > <li>Equal to operator: ==</li>
+  > <li>Not equal to operator: !=</li>
+  > <li>Greater than: ></li>
+  > <li>Less than: <</li>
+  > <li>Greater than or equal to: >=</li>
+  > <li>Less than or equal to: <=</li>
  
  Relational operators are used for making comparisons between operands.
  
