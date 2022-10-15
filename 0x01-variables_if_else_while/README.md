@@ -24,3 +24,15 @@ The logical AND operator (&&) is used to evaluate the truth or falsity of a pair
 operator yields a value of 0. Otherwise, if — and only if — both operand expressions evaluate to nonzero values, the logical AND operator yields a value of 1 (that is, true). 
 
 The logical OR operator (||) yields a value of 1 whenever one or both of the operand expressions evaluates to nonzero (logically true). The || operator yields 0 only if both operand expressions evaluate to 0 (false). The logical negation operator (!) is a unary operator; that is, it only takes one operand (the expression to its right). If the operand evaluates to any nonzero value, the ! operator yields 0 (logically false); only when the operand expression evaluates to 0, does the operator yield 1 (logically true).
+
+<h3>Relational operators and their usage</h3>
+
+The relational operators in C are;
+<ol>
+  <li>Equal to operator: ==</li>
+  <li>Not equal to operator: !=</li>
+  <li>Greater than: ></li>
+  <li>Less than: <</li>
+  <li>Greater than or equal to: >=</li>
+  <li>Less than or equal to: <=</li>
+ </ol>
