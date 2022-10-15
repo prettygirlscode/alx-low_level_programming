@@ -14,9 +14,9 @@ Arithmetic operators need two operands between one operator to perform all opera
 
 There are three logical operators in the C language:
 <ol>
-&& The logical AND operator
-|| The logical OR operator
-! The logical NEGATION operator
+  <li>&& The logical AND operator</li>
+  <li>|| The logical OR operator</li>
+  <li>! The logical NEGATION operator</li>
 </ol>
 The AND and OR operators, are binary operators; that is, they both take two operands (one to the left and one to the right of the operator).  
 The logical AND operator (&&) is used to evaluate the truth or falsity of a pair of expressions. If either expression evaluates to 0 (that is, false) the
