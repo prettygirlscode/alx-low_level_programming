@@ -5,12 +5,12 @@ Working on this project helped me understand the application and usage of arithm
 I learned how to use the if and if...else statements, i also learned how to declare and print values of variable type char, int and unsigned int. 
 Learining how to use the while and for loop was quite an interesting experience.
 
-<h3>Arithmetic operators and their usage</h3>
+<h3>Arithmetic operators</h3>
 
 In C, arithmetic operations are carried using arithmetic operators such as <strong>addition</strong>, <strong>subtration</strong>, <strong>multiplication</strong>, <strong>division</strong> and <strong>modulus</strong>, are performed using arithmetic operators.  
 Arithmetic operators need two operands between one operator to perform all operations successfully. 
 
-<h3>Logical operators and their usage</h3>
+<h3>Logical operators</h3>
 
 There are three logical operators in the C language:
 <ol> 
@@ -25,7 +25,7 @@ operator yields a value of 0. Otherwise, if — and only if — both operand exp
 
 The logical OR operator (||) yields a value of 1 whenever one or both of the operand expressions evaluates to nonzero (logically true). The || operator yields 0 only if both operand expressions evaluate to 0 (false). The logical negation operator (!) is a unary operator; that is, it only takes one operand (the expression to its right). If the operand evaluates to any nonzero value, the ! operator yields 0 (logically false); only when the operand expression evaluates to 0, does the operator yield 1 (logically true).
 
-<h3>Relational operators and their usage</h3>
+<h3>Relational operators</h3>
 
 The relational operators in C are;
 <ol>
@@ -36,3 +36,8 @@ The relational operators in C are;
   <li>Greater than or equal to: >=</li>
   <li>Less than or equal to: <=</li>
  </ol>
+ Relational operators are used for making comparisons between operands.
+ 
+<h3>If, else and if else</h3>
+ 
+The if, else, and if else statements in C programming are used in decision making. The decision making process specifies the flow or order in which statement     blocks are executed.
