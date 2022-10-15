@@ -1,5 +1,5 @@
 
-<h1>EXPLAINATION OF CONCEPTS USED IN WRITING MY PROGRAMS</h1>
+<h1>EXPLANATION OF CONCEPTS USED IN WRITING MY PROGRAMS</h1>
 
 Working on this project helped me understand the application and usage of arithmetic operators, logical operators, relational operators and variable declarations.
 I learned how to use the if and if...else statements, i also learned how to declare and print values of variable type `char`, `int` and `unsigned int`. 
