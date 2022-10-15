@@ -13,10 +13,12 @@ Arithmetic operators need two operands between one operator to perform all opera
 <h3>Logical operators</h3>
 
 There are three logical operators in the C language:
-<ol> 
-  <li>&& The logical AND operator</li>
-  <li>|| The logical OR operator</li>
-  <li>! The logical NEGATION operator</li>
+<ol>
+>  
+> <li>&& The logical AND operator</li>
+> <li>|| The logical OR operator</li>
+> <li>! The logical NEGATION operator</li>
+>
 </ol>
 
 The AND and OR operators, are binary operators; that is, they both take two operands (one to the left and one to the right of the operator).  
