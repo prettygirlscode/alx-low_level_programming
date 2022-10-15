@@ -2,7 +2,7 @@
 <h1>C - variables, if, else and while</h1>
 
 Working on this project helped me understand the application and usage of arithmetic operators, logical operators, relational operators and variable declarations.
-I learned how to use the if and if...else statements, i also learned how to declare and print values of variable type char, int and unsigned int. 
+I learned how to use the if and if...else statements, i also learned how to declare and print values of variable type `char`, `int` and `unsigned int`. 
 Learining how to use the while and for loop was quite an interesting experience.
 
 <h3>Arithmetic operators</h3>
@@ -41,5 +41,14 @@ The relational operators in C are;
 <h3>If, else and if else</h3>
  
 The if, else, and if else statements in C programming are used to control the flow of decision making. The decision making process specifies the flow or order in which statement blocks are executed. The if statement can be used to evaluate conditions as well as to make the decision +whether the block of code controlled by the statement is going to be executed. 
-` char`
+
+The general form of the if statement is
+`if (expression) {
+statement1;
+statement2;
+.
+.
+.
+`
+
 
