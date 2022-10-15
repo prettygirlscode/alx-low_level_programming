@@ -43,12 +43,12 @@ The relational operators in C are;
 The if, else, and if else statements in C programming are used to control the flow of decision making. The decision making process specifies the flow or order in which statement blocks are executed. The if statement can be used to evaluate conditions as well as to make the decision +whether the block of code controlled by the statement is going to be executed. 
 
 The general form of the if statement is;
-
+<ul>
 `if (expression)`
 { 
     `statement1`;
     `statement2`;                                                                                                                                                    }                                                                                                               
-
+</ul>
 
 
 
