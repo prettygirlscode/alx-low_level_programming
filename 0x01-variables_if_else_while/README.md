@@ -84,7 +84,7 @@ The while keyword repeatedly executes a statement while a given condition is tru
 while (expression) 
 statement;
 ```
-Here like the if and if-else statements, expression is the condition of the while statement. This expression is evaluated first. If the expression evaluates to a nonzero value, then statement is executed. After that, expression is evaluated again until it evaluates to a zero value (logically false).
+Here, like in the if and if-else statements, expression is the condition of the while statement. This expression is evaluated first. If the expression evaluates to a nonzero value, then statement is executed. After that, expression is evaluated again until it evaluates to a zero value (logically false).
 if the expression still evaluates to a nonzero value.
 
 
