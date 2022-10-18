@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include "main.h"
-/**
- * main - Entry point
- * Description: a program tha prints "_putchar"
- * return: Always 0 (Success)
- */
+#include <stdio.h>
 
+/**
+ * main - entry point of program
+ * Return: Always returns 0 (success)
+ */
 int main(void)
 {
 	char *s = "_putchar\n";
