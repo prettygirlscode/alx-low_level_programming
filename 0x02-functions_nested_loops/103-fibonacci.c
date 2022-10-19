@@ -18,9 +18,9 @@ int main(void)
 	{
 		if (c % 2 == 0)
 			s = s + c;
-			a = b;
-			b = c;
-			c = a + b;
+		a = b;
+		b = c;
+		c = a + b;
 	}
 	printf("%u\n", s);
 	return (0);
