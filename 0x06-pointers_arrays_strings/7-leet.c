@@ -5,7 +5,7 @@
 /**
  * *leet - encodes a string into 1337
  * @s: string
- * Return: s
+ * Return: Always 0
  */
 char *leet(char *s)
 {
