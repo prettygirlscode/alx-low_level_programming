@@ -21,11 +21,11 @@ char *_strdup(char *str)
 
 	str1 = malloc(len + 1);
 	p = str1;
-	
+
 	while (*str)
 		*p++ = *str++;
 
 	*p = '\0';
 	return (str1);
 }
-		       
+
