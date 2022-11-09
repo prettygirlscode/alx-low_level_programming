@@ -15,12 +15,12 @@ char *str_concat(char *s1, char *s2)
 	int r_index = 0;
 	int len = 0;
 
-	if (s1 == NULL )
+	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 
-	for (; s1[len] || s2[len]; len++)
+	for (len = 0; s1[len] || s2[len]; len++)
 
 	r_string = malloc(sizeof(char) * len);
 
