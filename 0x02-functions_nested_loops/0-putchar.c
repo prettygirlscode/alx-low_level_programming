@@ -16,3 +16,11 @@ int main(void)
 		putchar(*s++);
 	return (0);
 }
+
+/* Alternate solution */
+
+#include <unistd.h>
+int main(void)
+{
+	return (write(1, "_putchar\n", 11);
+}
