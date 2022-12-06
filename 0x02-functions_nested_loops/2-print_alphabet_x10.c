@@ -21,3 +21,23 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	}
 }
+
+/* Alternate solution with a while loop */
+void print_alphabet_x10(void)
+{
+	int j;
+	int i = 0;
+
+	while (i < 10)
+	{
+		j = 97;
+		
+		while (j < 123)
+		{
+			putchar(j);
+			j++;
+		}
+		putchar('\n');
+		i++;
+	}
+}
