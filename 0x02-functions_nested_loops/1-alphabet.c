@@ -18,17 +18,3 @@ void print_alphabet(void)
 	}
 		_putchar('\n');
 }
-
-/* alternate solution with a while loop*/
-
-
-void print_alphabet(void)
-{
-	int i = 97;
-
-	while (i <= 122)
-	{
-		putchar(i);
-		i++;
-	}
-}
