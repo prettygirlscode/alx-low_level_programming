@@ -17,10 +17,11 @@ int main(void)
 	return (0);
 }
 
-/* Alternate solution */
+/* Alternate solution 
 
 #include <unistd.h>
 int main(void)
 {
 	return (write(1, "_putchar\n", 11);
 }
+*/
